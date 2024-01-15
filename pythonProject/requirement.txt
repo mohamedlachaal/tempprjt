@@ -6,7 +6,7 @@ typing==3.10.0.2
 urllib3==1.26.8
 
 # Dépendance avec extras
-_marker[extra]==1.0.0
+marker[extra]==1.0.0
 
 # Dépendance avec URL
-_specifier==1.2.3 @ https://example.com/package.tar.gz
+specifier==1.2.3 @ https://example.com/package.tar.gz
