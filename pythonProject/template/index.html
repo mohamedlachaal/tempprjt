@@ -1,0 +1,91 @@
+<!--<head>
+    {% load static %}
+<link rel="stylesheet" href="{% static 'css/style2.css' %}">
+
+</head>
+<body>
+    {% load static %}
+  <div class="navbar"  style="background-image: url({% static 'images/HD.jpg' %}) ; ">
+    <nav >
+        <h2 class="logo">IOT</h2>
+
+            <ul>
+                    <li>  <a href="aff/" >Table</a></li>
+                    <li>  <a href="{% url 'index' %}" >Chart</a></li>
+                    <li>  <a href="#" >Json</a></li>
+
+
+            </ul>
+            <p> </p>
+
+
+    </nav>
+</div>
+
+</body>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .navbar {
+            background-image: url({% static 'images/HD.jpg' %});
+            background-size: cover;
+            color: white;
+            padding: 20px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .logo {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        li {
+            margin: 0 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <h2 class="logo">IOT</h2>
+            <ul>
+                <li><a href="aff/">Table</a></li>
+                <li><a href="{% url 'index' %}">Chart</a></li>
+                <li><a href="#">Json</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
+
