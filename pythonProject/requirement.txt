@@ -1,7 +1,7 @@
 # requirements.txt
 
 # Exemple de dépendances
-_parse==2.0.0
+parse==2.0.0
 typing==3.10.0.2
 urllib3==1.26.8
 
